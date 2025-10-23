@@ -1,15 +1,21 @@
-a = int(input("Masukan bilangan 1: ")) 
-b = int(input("Masukan bilangan 2: ")) 
-c = int(input("Masukan bilangan 3: ")) 
-d = int(input("Masukan bilangan 4: ")) 
+#input
+bilangan1 = int(input("Masukan bilangan 1: ")) 
+bilangan2 = int(input("Masukan bilangan 2: ")) 
+bilangan3 = int(input("Masukan bilangan 3: ")) 
+bilangan4 = int(input("Masukan bilangan 4: ")) 
 
-if a > b:
-    terbesar = a
-elif b > c:
-    terbesar = b
-elif c > d:
-    terbesar = c
-else: 
-    terbesar = d
+#percabangan
 
+terbesar = bilangan1
+
+if bilangan2 > terbesar: 
+    terbesar = bilangan2
+    
+if bilangan3 > terbesar:
+    terbesar = bilangan3
+    
+if bilangan4 > terbesar:
+    terbesar = bilangan4
+
+#output
 print (f"Bilangan terbesar adalah:: {terbesar}")
