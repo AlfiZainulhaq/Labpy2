@@ -28,4 +28,4 @@ Terakhir, jika bilangan4 paling besar, jadikan bilangan4 sebagai hasil akhir
 
 <pre>Setelah semua dibandingkan, tampilkan hasil akhir dari variabel terbesar</pre>
 
-## Latihan 2
+## Latihan 2 <a href= "/Latihan2.py">file</a>
