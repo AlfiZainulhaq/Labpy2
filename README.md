@@ -62,3 +62,30 @@ jika angka ketiga lebih besar dari keempat → tukar posisinya.
 ### Bagian tampilkan hasil
 
 <pre>menampilkan angka dari hasil variabel a, b, c, d</pre>
+
+## Perulangan Latihan 1 <a href= "Perulangan/Latihan1.py">file</a>
+
+<pre>
+<ul>
+<li>for i in range(10):
+Membuat perulangan luar dari 0 sampai 9 dan i adalah nomor baris.
+
+<li>for j in range(10):
+Perulangan dalam dari 0 sampai 9 dan j adalah nomor kolom.
+
+<li>print(f"{i + j:2}", end=" ")
+i + j adalah hasil penjumlahan dari nilai baris dan kolom.
+
+:2 berarti angka di cetak dalam ruang selebar 2 karakter, jadi angka-angka terlihat rata dan sejajar.
+
+end=" " berarti setelah cetak angka, tidak pindah baris, hanya kasih spasi antar angka.
+
+<li>print()
+Dijalankan setelah satu baris selesai
+</pre>
+
+## Perulangan latihan 2 <a href= "Perulangan/Latihan2.py">file</a>
+
+<pre>
+
+</pre>
