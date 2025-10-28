@@ -84,8 +84,35 @@ end=" " berarti setelah cetak angka, tidak pindah baris, hanya kasih spasi antar
 Dijalankan setelah satu baris selesai
 </pre>
 
-## Perulangan latihan 2 <a href= "Perulangan/Latihan2.py">file</a>
+## Perulangan Latihan 2 <a href= "Perulangan/Latihan2.py">file</a>
 
 <pre>
+<ul>
+<li>import random
+Mengambil modul random agar kita bisa membuat angka acak.
 
+<li>n = int(input("Masukkan jumlah n: "))
+berapa banyak angka acak yang mau ditampilkan.
+Nilai n disimpan sebagai integer.
+
+<li>count = 0
+Variabel penghitung untuk melacak sudah berapa angka yang berhasil dicetak.
+
+<li>while count < n:
+Selama jumlah angka yang dicetak masih kurang dari n(input data), lakukan pengulangan terus.
+
+<li>x = random.random()
+Menghasilkan bilangan acak antara 0.0 sampai 1.0.
+
+<li>if x < 0.5:
+Mengecek apakah angka acak lebih kecil dari 0.5.
+jika ya, maka:
+
+angka dicetak (print(x))
+
+count bertambah 1 (count += 1)
+
+jika tidak, angka diabaikan dan while lanjut lagi sampai ketemu yang < 0.5.
+
+Ketika count sudah sama dengan n, kondisi while count < n menjadi False, program berhenti.
 </pre>
