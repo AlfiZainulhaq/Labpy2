@@ -12,7 +12,7 @@ Program meminta pengguna memasukkan 4 angka dan menyimpannya dalam variabel bila
 
 <pre>
 <ul><li>terbesar = bilangan1
-Program menganggap sementara bahwa bilangan1 adalah yang terbesar
+Program menganggap sementara bahwa bilangan1 adalah yang terbesar.
 
 <li>if bilangan2 > terbesar:
 jika bilangan2 lebih besar dari bilangan1, berarti bilangan2 menjadi yang terbesar
